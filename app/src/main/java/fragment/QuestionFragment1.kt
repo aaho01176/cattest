@@ -24,10 +24,6 @@ class QuestionFragment1 : Fragment(), View.OnClickListener {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        tmp.ei = arguments?.getInt("Data1")?:-1
-        tmp.sn = arguments?.getInt("Data2")?:-1
-        tmp.tf = arguments?.getInt("Data3")?:-1
-        tmp.jp = arguments?.getInt("Data4")?:-1
 
         return inflater.inflate(R.layout.fragment_question1, container, false)
     }
